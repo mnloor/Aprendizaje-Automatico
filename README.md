@@ -1,74 +1,118 @@
-<!-- Encabezado -->
-[![Colaboradores][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Estrellas][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+# 📚 LexSystem
 
-<!-- Título -->
-<br />
-<div align="center">
+![License](https://img.shields.io/github/license/tu_usuario/LexSystem?style=flat-square) ![Issues](https://img.shields.io/github/issues/tu_usuario/LexSystem?style=flat-square)
 
-<h1 align="center">Formato base de proyectos</h1>
-  <p align="center">
-    Repositorio plantilla para el formato base de proyectos
-    <br />
-    <a href="https://github.com/mnloor/Aprendizaje-Automatico/issues">Reportar un Problema</a>
-  </p>
-</div>
+LexSystem es un sistema integral diseñado para la gestión eficiente en organizaciones legales. Este proyecto busca simplificar los procesos administrativos y optimizar la gestión de casos legales a través de tecnología moderna.
 
+---
 
-<!-- Cuerpo -->
-## Sobre el Proyecto
+## 🌟 Características principales
 
-En construcción.
+- **Gestión de usuarios**: Registro, autenticación y manejo de roles.
+- **Control de casos legales**: Creación, asignación y seguimiento de casos.
+- **Interfaz intuitiva**: Diseñado con React y Bootstrap para una experiencia de usuario amigable.
+- **Seguridad**: Implementación de CSRF y cookies seguras (httpOnly).
 
+---
 
-### Construido con
+## 📂 Estructura del proyecto
 
-![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=for-the-badge) 
-![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge) 
+```bash
+LexSystem
+├── backend
+│   ├── src
+│   │   ├── models
+│   │   ├── routes
+│   │   ├── controllers
+│   │   └── config
+│   └── Dockerfile
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── components
+│   └── package.json
+└── README.md
+```
 
+---
 
-## Descripción
+## 🚀 Instalación y ejecución
 
-En construcción.
+### Prerrequisitos
 
-### Contenido del Repositorio
+Asegúrate de tener instalados los siguientes programas:
 
-Se tienen los siguientes archivos en el repositorio:
+- [Node.js](https://nodejs.org/)
+- [Docker](https://www.docker.com/)
 
-- [Plantilla.ipynb](/Plantilla.ipynb): Notebook con la implementación de la solución.
-- [Datos](/Datos): Carpeta con los datos utilizados en el proyecto.
- 
- 
-## Créditos
+### Pasos
 
-**Melani Loor** (mnloor@puce.edu.ec) 
+1. **Clona este repositorio**:
 
-- Estudiante de Ingeniería en Ciencia de Datos en Pontificia Universidad Católica del Ecuador
-  
-  [![LinkedIn][linkedin-shield]][linkedin-url-aemt]
+   ```bash
+   git clone https://github.com/tu_usuario/LexSystem.git
+   cd LexSystem
+   ```
 
-## Licencia
+2. **Backend**:
 
-Distribuido bajo la licencia MIT. 
+   ```bash
+   cd backend
+   npm install
+   npm start
+   ```
 
-[![MIT License][license-shield]][license-url]
+3. **Frontend**:
 
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
 
+4. **Docker** (opcional):
 
+   ```bash
+   docker-compose up
+   ```
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/andres-merino/FormatoBaseProyectos.svg?style=for-the-badge
-[contributors-url]: https://github.com/andres-merino/FormatoBaseProyectos/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/andres-merino/FormatoBaseProyectos.svg?style=for-the-badge
-[forks-url]: https://github.com/andres-merino/FormatoBaseProyectos/forks
-[stars-shield]: https://img.shields.io/github/stars/andres-merino/FormatoBaseProyectos?style=for-the-badge
-[stars-url]: https://github.com/andres-merino/FormatoBaseProyectos/stargazers
-[issues-shield]: https://img.shields.io/github/issues/andres-merino/FormatoBaseProyectos.svg?style=for-the-badge
-[issues-url]: https://github.com/andres-merino/FormatoBaseProyectos/issues
-[license-shield]: https://img.shields.io/github/license/andres-merino/FormatoBaseProyectos.svg?style=for-the-badge
-[license-url]: https://es.wikipedia.org/wiki/Licencia_MIT
-[linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-url-aemt]: https://www.linkedin.com/in/andrés-merino-010a9b12b/
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Backend**: Node.js, Express.js, Sequelize, MySQL.
+- **Frontend**: React, Bootstrap.
+- **Otros**: Docker, CSRF Protection.
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas colaborar, por favor sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama: `git checkout -b feature/nueva_funcionalidad`.
+3. Realiza tus cambios y haz un commit: `git commit -m 'Agrega nueva funcionalidad'`.
+4. Sube los cambios a tu fork: `git push origin feature/nueva_funcionalidad`.
+5. Abre un Pull Request.
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
+
+---
+
+## 🌐 Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarme:
+
+- **Email**: tu_email@gmail.com
+- **GitHub**: [tu_usuario](https://github.com/tu_usuario)
+
+---
+
+¡Gracias por visitar este proyecto! 🎉
