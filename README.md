@@ -1,118 +1,65 @@
-# 📚 LexSystem
+# 🤖 Proyecto de Aprendizaje Automático
 
-![License](https://img.shields.io/github/license/tu_usuario/LexSystem?style=flat-square) ![Issues](https://img.shields.io/github/issues/tu_usuario/LexSystem?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue?style=flat-square) ![Machine Learning](https://img.shields.io/badge/machine--learning-ML-important?style=flat-square)
 
-LexSystem es un sistema integral diseñado para la gestión eficiente en organizaciones legales. Este proyecto busca simplificar los procesos administrativos y optimizar la gestión de casos legales a través de tecnología moderna.
-
----
-
-## 🌟 Características principales
-
-- **Gestión de usuarios**: Registro, autenticación y manejo de roles.
-- **Control de casos legales**: Creación, asignación y seguimiento de casos.
-- **Interfaz intuitiva**: Diseñado con React y Bootstrap para una experiencia de usuario amigable.
-- **Seguridad**: Implementación de CSRF y cookies seguras (httpOnly).
+Este repositorio contiene un conjunto de herramientas, algoritmos y modelos para abordar problemas relacionados con el aprendizaje automático. El objetivo principal es construir soluciones efectivas y escalables que exploten el potencial de los datos para resolver problemas complejos.
 
 ---
 
-## 📂 Estructura del proyecto
+## 📚 Descripción
 
-```bash
-LexSystem
-├── backend
-│   ├── src
-│   │   ├── models
-│   │   ├── routes
-│   │   ├── controllers
-│   │   └── config
-│   └── Dockerfile
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── components
-│   └── package.json
-└── README.md
-```
+El aprendizaje automático es una rama de la inteligencia artificial que permite a los sistemas aprender y mejorar su desempeño a partir de datos sin necesidad de ser programados explícitamente. Este proyecto se centra en:
+
+- Diseño y entrenamiento de modelos predictivos.
+- Implementación de algoritmos supervisados y no supervisados.
+- Evaluación y mejora de desempeño.
+- Aplicación de técnicas avanzadas como redes neuronales y aprendizaje profundo.
 
 ---
 
-## 🚀 Instalación y ejecución
+## 🎯 Objetivo
 
-### Prerrequisitos
-
-Asegúrate de tener instalados los siguientes programas:
-
-- [Node.js](https://nodejs.org/)
-- [Docker](https://www.docker.com/)
-
-### Pasos
-
-1. **Clona este repositorio**:
-
-   ```bash
-   git clone https://github.com/tu_usuario/LexSystem.git
-   cd LexSystem
-   ```
-
-2. **Backend**:
-
-   ```bash
-   cd backend
-   npm install
-   npm start
-   ```
-
-3. **Frontend**:
-
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-
-4. **Docker** (opcional):
-
-   ```bash
-   docker-compose up
-   ```
+Desarrollar un repositorio modular y bien documentado que facilite la investigación y aplicación de técnicas de aprendizaje automático en proyectos reales. Este repositorio también busca ser una referencia para estudiantes y profesionales interesados en el área.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🔧 Tecnologías
 
-- **Backend**: Node.js, Express.js, Sequelize, MySQL.
-- **Frontend**: React, Bootstrap.
-- **Otros**: Docker, CSRF Protection.
+El desarrollo de este proyecto se basa en las siguientes herramientas y librerías:
+
+- **Lenguaje principal**: Python 3.9+
+- **Bibliotecas principales**:
+  - NumPy y pandas para manipulación de datos.
+  - Scikit-learn para algoritmos de aprendizaje automático.
+  - TensorFlow y PyTorch para aprendizaje profundo.
+  - Matplotlib y Seaborn para visualización.
 
 ---
 
-## 🤝 Contribuciones
+## 🛠️ Contribuir
 
-¡Las contribuciones son bienvenidas! Si deseas colaborar, por favor sigue estos pasos:
+Las contribuciones son bienvenidas. Si deseas colaborar, sigue estos pasos:
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama: `git checkout -b feature/nueva_funcionalidad`.
-3. Realiza tus cambios y haz un commit: `git commit -m 'Agrega nueva funcionalidad'`.
-4. Sube los cambios a tu fork: `git push origin feature/nueva_funcionalidad`.
-5. Abre un Pull Request.
+1. Realiza un fork de este repositorio.
+2. Crea una rama para tu función o mejora: `git checkout -b feature/nueva_funcionalidad`.
+3. Realiza tus cambios y súbelos: `git commit -m 'Descripción del cambio'`.
+4. Envía un Pull Request para revisión.
 
 ---
 
 ## 📝 Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+Este proyecto está licenciado bajo la licencia [MIT](LICENSE). Puedes utilizarlo libremente con atribución adecuada.
 
 ---
 
 ## 🌐 Contacto
 
-Si tienes preguntas o sugerencias, no dudes en contactarme:
+Si tienes preguntas o sugerencias, puedes contactarme:
 
-- **Email**: tu_email@gmail.com
-- **GitHub**: [tu_usuario](https://github.com/tu_usuario)
+- **Email**: melaniloor140502@gmail.com
+- **GitHub**: [mnloor](https://github.com/mnloor)
 
 ---
 
-¡Gracias por visitar este proyecto! 🎉
+Gracias por tu interés en este proyecto. Espero que encuentres útil este repositorio en tus estudios o trabajo en aprendizaje automático.
